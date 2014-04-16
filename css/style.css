@@ -1,56 +1,66 @@
 body{
-    font-family:sans-serif;
-    font-size:10px;
-}
-
-#add{
-    display:inline;
-    vertical-align:middle;
-    background-color:pink;
-    width:58px;
-    color:white;
+    margin:0px;
     text-align:center;
-    padding:3px;
+    overflow:hidden;
+    transition:0.5s;
+    background-color:black;
 }
 
 input{
-    border: solid 1px pink;
-    height:20px;
-    color:pink;
+    margin-top:10px;
+    position:absolute;
+    width:150px;
+    margin-left:-75px;
+    text-transform:capitalize;
 }
 
-#remove{
-    display:inline;
-    margin-left:3px;
-    background-color:pink;
-    vertical-align:middle;
-    color:white;
+#bar{
+    position:absolute;
+    width:100%;
+    height:300px;
+    margin-top:480px;
+    background-color:white;
     text-align:center;
-    padding:3px;
-    width:60px;
 }
 
-#list{
-    color:grey;
+svg{
+    width:550px;
+    height:10000px;
+    position:absolute;
+    margin-left:-275px;
+    margin-top:-9800px;
+    font-size:15px;
+}
+
+.life{
+    width:10px;
+    height:10px;
+    background-color:red;
+    margin:3px;
+}
+
+#score{
+    color:red;
+    position:absolute;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    font-family:Mako;
     text-align:left;
-    padding:3px;
-}
-
-#cancel{
-    color:pink;
-    font-family:Futura, Sans-serif;
-    display:inline;
-    margin-left:5px;
-}
-
-#cancel:hover{
-    cursor:pointer;
-}
-
-#mother{
-    border: 3px solid pink;
-    width: 220px;
+    width:100px;
+    height:30px;
+    margin-top:40px;
+    margin-left:-44px;
+    }
+    
+#box{
+    background-color:black;
+    transition:3s;
+    padding:10px;
+    color:white;
+    position:absolute;
+    margin-left:70%;
     text-align:center;
-    padding:5px;
-    background-color:pink;
+    font-family:Mako;
+    font-size:12px;
 }
