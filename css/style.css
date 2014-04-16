@@ -64,3 +64,10 @@ svg{
     font-family:Mako;
     font-size:12px;
 }
+
+img{
+    margin-top:10px;
+    position:absolute;
+    width:20px;
+    margin-left:80px;
+}

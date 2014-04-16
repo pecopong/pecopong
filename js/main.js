@@ -15,6 +15,8 @@ var init = function(){
     
    svg=document.querySelector('svg');
    input = document.querySelector('input');
+   input.focus();
+   
    for(var i=0; i<originaltext.length; i++){
        listarr[i] = originaltext[Math.floor(Math.random()*originaltext.length)];
        listarrCap[i]=listarr[i].toUpperCase();
